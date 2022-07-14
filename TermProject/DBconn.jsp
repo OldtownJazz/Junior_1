@@ -4,7 +4,7 @@
 	
 	String url = "jdbc:mysql://localhost:3306/odbo";
 	String user = "root";
-	String passwd = "cat@82830";
+	String passwd = "12345";
 	
 	Class.forName("com.mysql.jdbc.Driver");
 	conn = DriverManager.getConnection(url, user, passwd);
